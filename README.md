@@ -1,5 +1,3 @@
-# Product-Returns-Predictive-Model
-
 # Data Analysis Task:
 ## Predictive Model for Lowering Product Returns at the E-Store
 
@@ -30,3 +28,13 @@ The goal of this data analysis task was to address the issue of product returns 
 
 
 ![image](https://github.com/AichaMaalej/Product-Returns-Predictive-Model/assets/50620846/b1b3267c-a8e3-47ee-9363-5bbd5b12f85e)
+
+### Interpretation:
+The table provides a quick overview of how each model performs across multiple metrics. While models like Random Forest and Logistic Regression show similar accuracy, they exhibit variations in precision, recall, and F1 Score. Gradient Boosting and K-Nearest Neighbors demonstrate differences in precision, recall, and ROC AUC.
+
+### Recommendation:
+While some models demonstrated acceptable accuracy, it's crucial to consider precision, recall, and F1 Score in the context of product return prediction. The low recall in most models suggests that they struggle to correctly identify cases of actual product returns. Given this, the predictive models, in their current states, may not be suitable as the sole basis for an automatic prediction plugin. However, they could still be valuable for informing human decision-making. For instance, customer service representatives could benefit from these predictions to handle returns more efficiently.
+We can enhance the model by applying refinements to feature engineering or reviewing the feature selection. If the model evaluation gives better results, we can suggest integrating the predictive model into the checkout process. In that case (prediction is high), we might provide suggestions to reduce returns such as alternative product recommendations or sizing guidance.
+
+### Analysis:
+The analysis of the product returns problem reveals several important insights. The dataset is a valuable resource for predictive modeling of product returns, but it does present certain challenges. Notably, a significant number of missing values are observed in the "date of birth" column, which can impact the accuracy and completeness of our predictive models. The age of the customers can be a potential feature for the predictive model; however, this feature was not considered in this work, but further strategies for handling these missing values need to be explored.
