@@ -1,8 +1,8 @@
 # Data Analysis Task:
 ## Predictive Model for Lowering Product Returns at the E-Store
 
-In this report, we suggest a data analysis and preprocessing process that sets the foundation for building predictive models aimed at addressing the product returns problem within the e-store of a Nordic fashion brand. 
-Brief summary of the key steps you've taken:
+In this report, we suggest a data analysis and preprocessing techniques that sets the foundation for building predictive models aimed at addressing the product returns problem within the e-store of a Nordic fashion brand. 
+Brief summary of the key steps I've taken:
 1.	Step 1: Data Exploration and Understanding:
 -	In this initial phase, we loaded the dataset into Jupyter Notebook, examined its structure, and assessed its size, basic statistics, missing values, unique values in categorical columns, and visualized data distributions using histograms and bar plots.
 
